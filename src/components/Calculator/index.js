@@ -10,7 +10,7 @@ import store from '../../store';
 class Calculator extends Component {
   render() {
       return (
-          <main className="react-calculator">
+          <main className={this.props.className ? this.props.className : "react-calculator"}>
               <Display text={store.getState().curExpression} />
               <ControlPanel store={store} />
               <Digits store={store} />
