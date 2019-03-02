@@ -13,7 +13,7 @@ class Calculator extends Component {
             <main className="react-calculator">
                 <Display text={store.getState().curExpression} />
                 <ControlPanel />
-                <Digits />
+                <Digits store={store} />
                 <Operators />
                 <History showHistory={store.getState().showHistory}
                          history={store.getState().history}
