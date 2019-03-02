@@ -15,7 +15,9 @@ class Calculator extends Component {
                 <ControlPanel />
                 <Digits />
                 <Operators />
-                <History />
+                <History showHistory={store.getState().showHistory}
+                         history={store.getState().history}
+                />
             </main>
         )
     }
