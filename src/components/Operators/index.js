@@ -1,5 +1,4 @@
 import React from 'react';
-import ee from '../../eventEmitter';
 import store from '../../store';
 import Button from '../Button';
 

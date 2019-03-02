@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import ee from '../../eventEmitter';
+import React from 'react';
 
 export const Button = ({text, buttonClass, clickHandler}) => (
     <button
