@@ -18,7 +18,7 @@ class Calculator extends Component {
     render() {
         return (
             <main className="react-calculator">
-                <Display text={store.curExpression} />
+                <Display text={store.getState().curExpression} />
                 <ControlPanel />
                 <Digits />
                 <Operators />
