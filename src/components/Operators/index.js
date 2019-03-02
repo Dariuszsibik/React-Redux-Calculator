@@ -27,6 +27,6 @@ export const Operators = () => (
             )}
         <Button text="=" clickHandler={calculateExpression}/>
     </section>
-);
+)
 
 export default Operators;
